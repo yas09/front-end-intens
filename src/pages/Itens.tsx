@@ -1,3 +1,4 @@
+import Botao from '../components/Botao';
 import Cabecalho from '../components/Cabecalho';
 import Rodape from '../components/Rodape';
 import './Itens.css';
@@ -13,6 +14,7 @@ const ItensPage = function() {
             <li>Item 2</li>
             <li>Item 3</li>
         </ul>
+        <Botao texto="Criar" /> 
         </main>
         < Rodape />
         </>
